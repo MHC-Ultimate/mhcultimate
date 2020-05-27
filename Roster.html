@@ -6,18 +6,20 @@
   <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
 	<style>
 		html {
-			background-color: white;
-			font-family: monospace, sans-serif;
+  background-color: white;
+  font-family: Armino, sans-serif;
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-size: cover;
 		}
 
-		#main-nav {
-			/* background-color: white; */
-			text-align: center;
-			background-image: url("https://images.unsplash.com/photo-1560717789-0ac7c58ac90a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
-			background-color: rgba(255,255,255,0.7);
-			background-blend-mode: lighten;
-			background-size: cover;
-		}
+  #main-nav{
+    text-align: center;
+    background-image: url(icons/background.jpg);
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+    background-size: cover;
+  }
 
 		div {
 			border-radius: 8px;
@@ -37,21 +39,21 @@
 			color: black;
 		}
 
-		h1 {
-			font-family: Lobster, sans-serif;
-			font-size: 100px;
-			margin-top: 0px;
-			margin-bottom: 10px;
-		}
-
-    h2 {
-      /* font-family: Lobster, sans-serif; */
-      /* font-family: 'Oswald', sans-serif; */
-      font-family: 'Arimo', sans-serif;
+    h1 {
+      font-family: Georgia, sans-serif;
+      font-size: 70px;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
 
+    h2 {
+
+     margin-top:5px;
+     margin-bottom:5px;
+   }
+
     h3 {
-        font-family: Lobster, sans-serif;
+        font-family: Georgia, sans-serif;
     }
 
     p {
@@ -60,21 +62,22 @@
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 25px;
+        text-align: center;
     }
 
     #word {
-        font-family: Lobster, sans-serif;
+        font-family: Amino, sans-serif;
     }
 
 		#footer {
 			background-color: white;
-			padding: 15px;
-      margin-top: 20px;
+
 			clear: all;
 		}
 
     .social {
-      height: 75px;
+      height: 55px;
+    padding:5px;
     }
 
 
@@ -187,38 +190,35 @@
       color: #f2f2f2;
       font-size: 12px;
       padding: 8px 12px;
-      position: absolute;
+      position: fixed;
       top: 0;
     }
 
-		.bio {
-			position: absolute;
-			top: 30%;
-			left: 35%;
-		}
-
 		.bioName {
-      position: absolute;
+      position: fixed;
+      text-align: center;
+      font-size: 120%;
       top: 25%;
-      left: 35%;
+      left: 40%;
+      padding-bottom: 3%;
     }
 
 		.bioYear {
-			position: absolute;
+			position: fixed;
 			top: 30%;
-			left: 35%;
+			left: 40%;
 		}
 
 		.bioHometown {
-			position: absolute;
+			position: fixed;
 			top: 35%;
-			left: 35%;
+			left: 40%;
 		}
 
-		.bioInfo {
-			position: absolute;
+		.bioMajor {
+			position: fixed;
 			top: 40%;
-			left: 5%;
+			left: 40%;
 		}
 
     img {
@@ -261,25 +261,28 @@
 
 	</style>
 	<head>
-		  <link rel="icon" href="https://gm1.ggpht.com/HEyTDGqINNlQMFaGF0ko2GIOIFQZEpfoellZwtlTt9wq09Vb52MyjBshDf5gZzCROUzWWh9tcbcj6jgKrCQDr_b4ma5nvRAsOkIH3CR5GQYHivlO4XIeexMmJq-0VAljqOKv7pbYZnELmwMK_iZJdQF2psfIvA3vK0RmooVpLN26_9kT7O0gOIF1xGbfvrWRNMM9e5cUFO0d-jGWEKdV_lT1CQITk2n3ndtSYh5N4MRgC151cg9ZbDpv3sJ5oQMgrhtseIrzOjX2qjibU7V-3WMIFhnga7n_Fso5NrvrteLKIaG2rPyByzZyNH9kOLKiIKI5PMCJ6H5117fDbwUr8FzeD_FGZunAZDXCbq_1i1VWZb-JL2-Tt5xfYCUttZ5CVVN-ajQ3hi5lcluLRHS7EHAtzvPnUqoJqUjM6iYDGLgcJO4q3M1E1E4WJXWkWjapGJ4ypwpSlUNLKfyi7KLWf0TjYR9U_hcYsg7q7gDWIHsDcNilJM7n8KrCN0tC-r6D6q8C0JvFbqV_-usRVdtMIzKifcLBaZiBBIhQBACR82lUitxzf492ieikpT1FEVwo3MuonPIus5ovXeQVSQyfVvZfB_GlEfdKH5olo_Fx-BVQbi34q_ZpWdzzLcxRSptJwU3GPrChJXxNUUyWjl31etZsufvrzDGMOqrVcNtxCR57AE9xyJPb5-lD2lKco4XiGvK8dNjd3dqfiIMAWGCyiSB_hEDrm9x-IA3FTzWw3jYdHhtoZc2zClF58_zEeA=s0-l75-ft-l75-ft">
+		  <link rel="icon" href="icons/daisychainlogo.jpg">
 		<title>
-			Roster
+			Roster | Mount Holyoke Ultimate
 		</title>
 	</head>
 	<body>
-		<div id="main-nav">
-			<h1><a href="index.html">Daisy Chain</a></h1>
-      <h2>Mount Holyoke College's Ultimate Team</h2>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="Roster.html">Roster</a></li>
-				<li><a href="Schedule.html">Schedule/Results</a></li>
-			</ul>
+ <div id="main-nav">
+  <h1><a href="index.html">Daisy Chain</a></h1>
+  <h2>Mount Holyoke's Ultimate Team</h2>
+  <ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="about.html">About Us</a></li>
+   <li><a href="Roster.html">Roster</a></li>
+   <li><a href="Schedule.html">Schedule/Results</a></li>
+   <li><a href="contact.html">Contact</a></li>
+   <li><a href="support.html">Support Us</a></li>
+ </ul>
 		</div>
     <div id="word">
-      <p style = "font-family: Arial">
-        <h2><center>Click the images to learn more about the players!</center></h2>
+        <h3><center>2019-2020 Roster</center></h3>
+        <p>
+        Click the images to learn more about the player!
       </p>
     <div class="roster">
       <div class="row">
@@ -409,366 +412,277 @@
         <div class="modal-content">
 
           <div class="mySlides">
-            <div class="numbertext">1 / 32</div>
             <img src="rosterimages/Mahmuda.jpg" style="width:100%">
-            <div class="bioName"><p>Mahmuda Alam #12</p></div>
-						<div class="bioYear"><p>Senior</p></div>
-						<div class="bioHometown"><p>Hudson, NY</p></div>
-						<div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Mahmuda Alam #12</b></p></div>
+						<div class="bioYear"><p><b>Year:</b> Senior</p></div>
+						<div class="bioHometown"><p><b>Hometown:</b> Hudson, NY</p></div>
+						<div class="bioMajor"><p><b>Major:</b> Biochemistry (Pre-med)</p></div>
           </div>
 
 					<div class="mySlides">
-	            <div class="numbertext">2 / 32</div>
 	            <img src="rosterimages/Bloomie.jpg" style="width:100%">
-	            <div class="bioName"><p>Bloomie Bloomgarden #30</p></div>
-							<div class="bioYear"><p>Senior</p></div>
-							<div class="bioHometown"><p>Northampton, MA</p></div>
-							<div class="bioInfo"><p></p></div>
+	            <div class="bioName"><p><b>Sarah Bloomgarden (Bloomie) #30</b></p></div>
+							<div class="bioYear"><p><b>Year:</b> Senior</p></div>
+							<div class="bioHometown"><p><b>Hometown:</b> Northampton, MA</p></div>
+							<div class="bioMajor"><p><b>Major:</b> Politics</p></div>
 	         </div>
 
 	          <div class="mySlides">
-	            <div class="numbertext">3 / 32</div>
 	            <img src="rosterimages/Han.jpeg" style="width:100%">
-	            <div class="bioName"><p>Hannah Finn-Erb #25</p></div>
-							<div class="bioYear"><p>Senior</p></div>
-							<div class="bioHometown"><p>Northampton, MA</p></div>
-							<div class="bioInfo"><p></p></div>
+	            <div class="bioName"><p><b>Hannah Finn-Erb #25</b></p></div>
+							<div class="bioYear"><p><b>Year:</b> Senior</p></div>
+							<div class="bioHometown"><p><b>Hometown:</b> Northampton, MA</p></div>
+							<div class="bioMajor"><p><b>Major:</b> Economics</p></div>
 	         </div>
 
 	          <div class="mySlides">
-	            <div class="numbertext">4 / 32</div>
 	            <img src="rosterimages/Ysabel.jpg" style="width:100%">
-	            <div class="bioName"><p>Ysabel Lavitz #7</p></div>
-							<div class="bioYear"><p>Senior</p></div>
-							<div class="bioHometown"><p>Kentucky</p></div>
-							<div class="bioInfo"><p></p></div>
+	            <div class="bioName"><p><b>Ysabel Lavitz #7</b></p></div>
+							<div class="bioYear"><p><b>Year:</b> Senior</p></div>
+							<div class="bioHometown"><p><b>Hometown:</b> Murray, KY</p></div>
+							<div class="bioMajor"><p><b>Major:</b> Environmental Studies</p></div>
 	         </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Christine.jpg" style="width:100%">
-            <div class="bioName"><p>Christine Sherwood</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Amherst, MA</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Christine Sherwood</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Senior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Amherst, MA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Psychology and Education</p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Sherry.jpg" style="width:100%">
-            <div class="bioName"><p>Sherry Yang</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Beijing, China</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Sherry Yang #28</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Senior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Beijing, China</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Biochemistry (Pre-med)</p></div>
           </div>
 
          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Emma.jpeg" style="width:100%">
-            <div class="bioName"><p>Emma Bowe #11</p></div>
-            <div class="bioYear"><p>Junior</p></div>
-            <div class="bioHometown"><p>Belfast, ME</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Emma Bowe #11</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Belfast, ME</p></div>
+            <div class="bioMajor"><p><b>Major:</b> International Relations</p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Clara.jpg" style="width:100%">
-            <div class="bioName"><p>Clara Honigberg #</p></div>
-            <div class="bioYear"><p></p>Junior</div>
-            <div class="bioHometown"><p>Washington D.C.</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Clara Honigberg #13</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Washington D.C.</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Chemistry (Pre-med)</p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Madison.jpeg" style="width:100%">
-            <div class="bioName"><p>Madison F #98</p></div>
-            <div class="bioYear"><p>Junior</p></div>
-            <div class="bioHometown"><p>Amherst, MA</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Madison Flueckiger #27</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Amherst, MA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Sara.jpg" style="width:100%">
-            <div class="bioName"><p>Sara Frieze #18</p></div>
-            <div class="bioYear"><p>Junior</p></div>
-            <div class="bioHometown"><p>a shit town in connecticut</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Sara Frieze #18</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Norfolk, CT</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/RobinJordan.jpg" style="width:100%">
-            <div class="bioName"><p>Robin Jordan</p></div>
-            <div class="bioYear"><p>Junior</p></div>
-            <div class="bioHometown"><p>Portland, ME</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Robin Jordan</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Portland, ME</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Robin.jpg" style="width:100%">
-            <div class="bioName"><p>Robin Joyce #32</p></div>
-            <div class="bioYear"><p>Junior</p></div>
-            <div class="bioHometown"><p>Arcata, CA</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Robin Joyce #32</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Arcata, CA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Data Science</p></div>
           </div>
 
          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Nina.jpg" style="width:100%">
-            <div class="bioName"><p>Nina Liu #</p></div>
-            <div class="bioYear"><p>Junior</p></div>
-            <div class="bioHometown"><p>Beijing, China</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Nina Liu</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Beijing, China</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Computer Science</p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/Marlee.jpg" style="width:100%">
-            <div class="bioName"><p>Marlee Raiffa #8</p></div>
-            <div class="bioYear"><p>Junior</p></div>
-            <div class="bioHometown"><p>Amherst, MA</p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b>Marlee Raiffa #8</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Amherst, MA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
+            <img src="rosterimages/Wolf.jpg" style="width:100%">
+            <div class="bioName"><p><b>Wolf Chen #0</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Omie.jpeg" style="width:100%">
+            <div class="bioName"><p><b>Omie Coyne #6</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Tallahassee, FL</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Biology</p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Sophia.jpeg" style="width:100%">
+            <div class="bioName"><p><b>Sophia Hoenig #9</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Washington D.C.</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Data Science</p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Anglea.jpeg" style="width:100%">
+            <div class="bioName"><p><b>Angela Kung #54</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Data Science</p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Ayla.jpg" style="width:100%">
+            <div class="bioName"><p><b>Ayla Osgood #71</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> State College, PA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Anli.jpeg" style="width:100%">
+            <div class="bioName"><p><b>Anli Raymond #15</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> New Haven, CT</p></div>
+            <div class="bioMajor"><p><b>Major:</b> Economics</p></div>
+          </div>
+          
+          <div class="mySlides">
+            <img src="rosterimages/SJ.jpg" style="width:100%">
+            <div class="bioName"><p><b>Emma St. John (SJ) #78</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Montclair, NJ</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Maggie.jpeg" style="width:100%">
+            <div class="bioName"><p><b>Maggie Sullivan #18</b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Westfield, MA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/HannahA.jpg" style="width:100%">
+            <div class="bioName"><p><b>Hannah Avidon </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Washington D.C.</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Maddie.jpeg" style="width:100%">
+            <div class="bioName"><p><b>Maddie Burke (Buckets) </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Seattle, WA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+          
+          <div class="mySlides">
+            <img src="rosterimages/Gigi.jpg" style="width:100%">
+            <div class="bioName"><p><b>Gigi Downey </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Boston, MA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Anisha.jpg" style="width:100%">
+            <div class="bioName"><p><b>Anisha Johnson </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Carlsbad, CA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Gauri.jpg" style="width:100%">
+            <div class="bioName"><p><b>Gauri Kaushik </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Cupertino, CA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Ciera.jpg" style="width:100%">
+            <div class="bioName"><p><b>Ciera LeCiel </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Seattle, WA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+          
+          <div class="mySlides">
+            <img src="rosterimages/Maddy.jpg" style="width:100%">
+            <div class="bioName"><p><b>Maddy McAlexander </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Havertown, PA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Olive.jpg" style="width:100%">
+            <div class="bioName"><p><b>Olive Rowell </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Brattleboro, VT</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Silvie.png" style="width:100%">
+            <div class="bioName"><p><b>Silvie Schlein </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+          <div class="mySlides">
+            <img src="rosterimages/Tori.jpg" style="width:100%">
+            <div class="bioName"><p><b>Tori Tenney </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> Orange, MA</p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div>
+
+
+<!--           <div class="mySlides">
             <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
+            <div class="bioName"><p><b> </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> </p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> </p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
             <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/Christine.jpg" style="width:100%">
-            <div class="bioName"><p>Christine Sherwood</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Amherst, MA</p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/Sherry.jpg" style="width:100%">
-            <div class="bioName"><p>Sherry Yang</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Beijing, China</p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-         <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/Christine.jpg" style="width:100%">
-            <div class="bioName"><p>Christine Sherwood</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Amherst, MA</p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/Sherry.jpg" style="width:100%">
-            <div class="bioName"><p>Sherry Yang</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Beijing, China</p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-         <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/Christine.jpg" style="width:100%">
-            <div class="bioName"><p>Christine Sherwood</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Amherst, MA</p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/Sherry.jpg" style="width:100%">
-            <div class="bioName"><p>Sherry Yang</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Beijing, China</p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-         <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/Christine.jpg" style="width:100%">
-            <div class="bioName"><p>Christine Sherwood</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Amherst, MA</p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/Sherry.jpg" style="width:100%">
-            <div class="bioName"><p>Sherry Yang</p></div>
-            <div class="bioYear"><p>Senior</p></div>
-            <div class="bioHometown"><p>Beijing, China</p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-         <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 32</div>
-            <img src="rosterimages/" style="width:100%">
-            <div class="bioName"><p></p></div>
-            <div class="bioYear"><p></p></div>
-            <div class="bioHometown"><p></p></div>
-            <div class="bioInfo"><p></p></div>
-          </div>
-
-
+            <div class="bioName"><p><b> </b></p></div>
+            <div class="bioYear"><p><b>Year:</b> </p></div>
+            <div class="bioHometown"><p><b>Hometown:</b> </p></div>
+            <div class="bioMajor"><p><b>Major:</b> </p></div>
+          </div> -->
 
 
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -777,11 +691,11 @@
       </div>
     </div>
 
-    <div id = "footer" style="padding-top: 100px;">
-      <a href = "https://twitter.com/MHCdaisychain" target="_blank"><img src = "https://www.pngkey.com/png/detail/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" class = "social" /></a>
-      <a href = "https://www.facebook.com/mhcult/" target="_blank"><img src = "https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" class = "social" /> </a>
-			<a href = "https://www.instagram.com/mhcdaisychain/" target="_blank"><img src = "https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300" class = "social" /></a>
-	  </div>
+    <div id = "footer">
+  <a href = "https://twitter.com/MHCdaisychain" target="_blank"><img src = "icons/twitter.png" class = "social" /></a>
+  <a href = "https://www.facebook.com/mhcdaisychain/" target="_blank"><img src = "icons/facebook.png" class = "social" /> </a>
+  <a href = "https://www.instagram.com/mhcdaisychain/" target="_blank"><img src = "icons/instagram.png" class = "social" /></a>
+</div>
     <script>
     function openModal() {
       document.getElementById("myModal").style.display = "block";
