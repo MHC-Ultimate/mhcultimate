@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
-	<style>
-		html {
-  background-color: white;
-  font-family: Armino, sans-serif;
-  background-color: rgba(255,255,255,0.7);
-  background-blend-mode: lighten;
-  background-size: cover;
-		}
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+<style>
+  html {
+    background-color: white;
+    font-family: Armino, sans-serif;
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+    background-size: cover;
+  }
 
   #main-nav{
     text-align: center;
@@ -21,252 +21,243 @@
     background-size: cover;
   }
 
-		div {
-			border-radius: 8px;
-		}
+  div {
+   border-radius: 8px;
+ }
 
-		li {
-			padding: 0px 14px 14px 14px;
-			display: inline-block;
-		}
+ li {
+   padding: 0px 14px 14px 14px;
+   display: inline-block;
+ }
 
-		li a:hover{
-			border-bottom: 2px solid black;
-		}
+ li a:hover{
+   border-bottom: 2px solid black;
+ }
 
-		a {
-			text-decoration: none;
-			color: black;
-		}
+ a {
+   text-decoration: none;
+   color: black;
+ }
 
-    h1 {
-      font-family: Georgia, sans-serif;
-      font-size: 70px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
+ h1 {
+  font-family: Georgia, sans-serif;
+  font-size: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
-    h2 {
+h2 {
 
-     margin-top:5px;
-     margin-bottom:5px;
-   }
+ margin-top:5px;
+ margin-bottom:5px;
+}
 
-    h3 {
-        font-family: Georgia, sans-serif;
-    }
+h3 {
+  font-family: Georgia, sans-serif;
+}
 
-    p {
-        font-family: sans-serif;
-        line-height: 2em;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 25px;
-        text-align: center;
-    }
+p {
+  font-family: sans-serif;
+  line-height: 2em;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
 
-    #word {
-        font-family: Amino, sans-serif;
-    }
+#word {
+  font-family: Amino, sans-serif;
+}
 
-		#footer {
-			background-color: white;
+#footer {
+ background-color: white;
 
-			clear: all;
-		}
+ clear: all;
+}
 
-    .social {
-      height: 55px;
-    padding:5px;
-    }
+.social {
+  height: 55px;
+  padding:5px;
+}
 
 
-    * {
-      box-sizing: border-box;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    .row > .column {
-      padding: 0 8px;
-    }
+.row > .column {
+  padding: 0 8px;
+}
 
-    .row {
-      padding-top: 16px;
-    }
+.row {
+  padding-top: 16px;
+}
 
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-    .column {
-      float: left;
-      width: 25%;
-    }
+.column {
+  float: left;
+  width: 25%;
+}
 
-    /* The Modal (background) */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      padding-top: 100px;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      /* background-color: black; */
-      background-color: rgb(0,0,0); /* Fallback color */
-      background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
-    }
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  /* background-color: black; */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
 
-    /* Modal Content */
-    .modal-content {
-      position: relative;
-      background-color: #fefefe;
-      margin: auto;
-      padding: 0;
-      width: 30%;
-      /* max-width: 1200px; */
-    }
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 30%;
+  /* max-width: 1200px; */
+}
 
-    /* The Close Button */
-    .close {
-      color: white;
-      position: absolute;
-      top: 10px;
-      right: 25px;
-      font-size: 35px;
-      font-weight: bold;
-    }
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
 
-    .close:hover,
-    .close:focus {
-      color: #999;
-      text-decoration: none;
-      cursor: pointer;
-    }
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-    .mySlides {
-      display: none;
-    }
+.mySlides {
+  display: none;
+}
 
-    .cursor {
-      cursor: pointer;
-    }
+.cursor {
+  cursor: pointer;
+}
 
-    /* Next & previous buttons */
-    .prev,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -50px;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      -webkit-user-select: none;
-    }
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
 
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover,
-    .next:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: fixed;
-      top: 0;
-    }
+.bioName {
+  position: fixed;
+  text-align: center;
+  font-size: 120%;
+  top: 25%;
+  left: 40%;
+  padding-bottom: 3%;
+}
 
-		.bioName {
-      position: fixed;
-      text-align: center;
-      font-size: 120%;
-      top: 25%;
-      left: 40%;
-      padding-bottom: 3%;
-    }
+.bioYear {
+ position: fixed;
+ top: 30%;
+ left: 40%;
+}
 
-		.bioYear {
-			position: fixed;
-			top: 30%;
-			left: 40%;
-		}
+.bioHometown {
+ position: fixed;
+ top: 35%;
+ left: 40%;
+}
 
-		.bioHometown {
-			position: fixed;
-			top: 35%;
-			left: 40%;
-		}
+.bioMajor {
+ position: fixed;
+ top: 40%;
+ left: 40%;
+}
 
-		.bioMajor {
-			position: fixed;
-			top: 40%;
-			left: 40%;
-		}
+img {
+  margin-bottom: -4px;
+}
 
-    img {
-      margin-bottom: -4px;
-    }
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+  background-color: rgba(0,0,0,0.0); /* Black w/ opacity */
+}
 
-    .caption-container {
-      text-align: center;
-      background-color: black;
-      padding: 2px 16px;
-      color: white;
-      background-color: rgba(0,0,0,0.0); /* Black w/ opacity */
-    }
+.demo {
+  opacity: 0.6;
+}
 
-    .demo {
-      opacity: 0.6;
-    }
+.active,
+.demo:hover {
+  opacity: 1;
+}
 
-    .active,
-    .demo:hover {
-      opacity: 1;
-    }
+img.hover-shadow {
+  transition: 0.3s;
+}
 
-    img.hover-shadow {
-      transition: 0.3s;
-    }
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-    .hover-shadow:hover {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+.modal img {
+  opacity: 0.5;
+}
 
-    .modal img {
-      opacity: 0.5;
-    }
+.roster {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
-    .roster {
-      margin-left: 15%;
-      margin-right: 15%;
-    }
-
-	</style>
-	<head>
-		  <link rel="icon" href="icons/daisychainlogo.jpg">
-		<title>
-			Roster | Mount Holyoke Ultimate
-		</title>
-	</head>
-	<body>
+</style>
+<head>
+  <link rel="icon" href="icons/daisychainlogo.jpg">
+  <title>
+   Roster | Mount Holyoke Ultimate
+ </title>
+</head>
+<body>
  <div id="main-nav">
   <h1><a href="index.html">Daisy Chain</a></h1>
   <h2>Mount Holyoke's Ultimate Team</h2>
@@ -278,394 +269,355 @@
    <li><a href="contact.html">Contact</a></li>
    <li><a href="support.html">Support Us</a></li>
  </ul>
-		</div>
-    <div id="word">
-        <h3><center>2019-2020 Roster</center></h3>
-        <p>
-        Click the images to learn more about the player!
-      </p>
-    <div class="roster">
-      <div class="row">
-        <div class="column">
-          <img src="rosterimages/Mahmuda.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Bloomie.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Han.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Ysabel.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="column">
-          <img src="rosterimages/Christine.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Sherry.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-        </div>
+</div>
+<div id="word">
+  <h3><center>Spring 2020 Roster</center></h3>
+  <p>
+    Click the images to learn more about the player!
+  </p>
+  <div class="roster">
+    <div class="row">
       <div class="column">
-          <img src="rosterimages/Emma.jpeg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Clara.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-        </div>  
+        <img src="rosterimages/Mahmuda.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
       </div>
-
-      <div class="row">
-        <div class="column">
-          <img src="rosterimages/Madison.jpeg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Sara.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/RobinJordan.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Robin.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
-        </div>
+      <div class="column">
+        <img src="rosterimages/Bloomie.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
       </div>
-
-            <div class="row">
-        <div class="column">
-          <img src="rosterimages/Nina.jpg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Marlee.jpg" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Wolf.jpg" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Omie.jpeg" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
-        </div>
+      <div class="column">
+        <img src="rosterimages/Han.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
       </div>
-
-            <div class="row">
-        <div class="column">
-          <img src="rosterimages/Sophia.jpeg" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Anglea.jpeg" style="width:100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Ayla.jpg" style="width:100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Anli.jpeg" style="width:100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
-        </div>
+      <div class="column">
+        <img src="rosterimages/Ysabel.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
       </div>
+    </div>
 
-            <div class="row">
-        <div class="column">
-          <img src="rosterimages/SJ.jpg" style="width:100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Maggie.jpeg" style="width:100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/HannahA.jpg" style="width:100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Maddie.jpeg" style="width:100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
-        </div>
+    <div class="row">
+      <div class="column">
+        <img src="rosterimages/Christine.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
       </div>
-
-            <div class="row">
-        <div class="column">
-          <img src="rosterimages/Gigi.jpg" style="width:100%" onclick="openModal();currentSlide(25)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Anisha.jpg" style="width:100%" onclick="openModal();currentSlide(26)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Gauri.jpg" style="width:100%" onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Ciera.jpg" style="width:100%" onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
-        </div>
+      <div class="column">
+        <img src="rosterimages/Sherry.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
       </div>
-
-      <div class="row">
-        <div class="column">
-          <img src="rosterimages/Maddy.jpg" style="width:100%" onclick="openModal();currentSlide(29)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Olive.jpg" style="width:100%" onclick="openModal();currentSlide(30)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Silvie.png" style="width:100%" onclick="openModal();currentSlide(31)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-          <img src="rosterimages/Tori.jpg" style="width:100%" onclick="openModal();currentSlide(32)" class="hover-shadow cursor">
-        </div>
+      <div class="column">
+        <img src="rosterimages/Emma.jpeg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
       </div>
+      <div class="column">
+        <img src="rosterimages/Clara.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+      </div>  
+    </div>
 
+    <div class="row">
+
+      <div class="column">
+        <img src="rosterimages/RobinJordan.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
       </div>
+      <div class="column">
+        <img src="rosterimages/Robin.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+      </div>
+    <div class="column">
+      <img src="rosterimages/Marlee.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Wolf.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+    </div>
 
-      <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Mahmuda.jpg" style="width:100%">
-            <div class="bioName"><p><b>Mahmuda Alam #12</b></p></div>
-						<div class="bioYear"><p><b>Year:</b> Senior</p></div>
-						<div class="bioHometown"><p><b>Hometown:</b> Hudson, NY</p></div>
-						<div class="bioMajor"><p><b>Major:</b> Biochemistry (Pre-med)</p></div>
-          </div>
+  <div class="row">
+    <div class="column">
+      <img src="rosterimages/Omie.jpeg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Anglea.jpeg" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Ayla.jpg" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Anli.jpeg" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+    </div>
+  </div>
 
-					<div class="mySlides">
-	            <img src="rosterimages/Bloomie.jpg" style="width:100%">
-	            <div class="bioName"><p><b>Sarah Bloomgarden (Bloomie) #30</b></p></div>
-							<div class="bioYear"><p><b>Year:</b> Senior</p></div>
-							<div class="bioHometown"><p><b>Hometown:</b> Northampton, MA</p></div>
-							<div class="bioMajor"><p><b>Major:</b> Politics</p></div>
-	         </div>
+  <div class="row">
+    <div class="column">
+      <img src="rosterimages/SJ.jpg" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Maggie.jpeg" style="width:100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/HannahA.jpg" style="width:100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Maddie.jpeg" style="width:100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+    </div>
+  </div>
 
-	          <div class="mySlides">
-	            <img src="rosterimages/Han.jpeg" style="width:100%">
-	            <div class="bioName"><p><b>Hannah Finn-Erb #25</b></p></div>
-							<div class="bioYear"><p><b>Year:</b> Senior</p></div>
-							<div class="bioHometown"><p><b>Hometown:</b> Northampton, MA</p></div>
-							<div class="bioMajor"><p><b>Major:</b> Economics</p></div>
-	         </div>
+  <div class="row">
+    <div class="column">
+      <img src="rosterimages/Gigi.jpg" style="width:100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Anisha.jpg" style="width:100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Gauri.jpg" style="width:100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Ciera.jpg" style="width:100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+    </div>
+  </div>
 
-	          <div class="mySlides">
-	            <img src="rosterimages/Ysabel.jpg" style="width:100%">
-	            <div class="bioName"><p><b>Ysabel Lavitz #7</b></p></div>
-							<div class="bioYear"><p><b>Year:</b> Senior</p></div>
-							<div class="bioHometown"><p><b>Hometown:</b> Murray, KY</p></div>
-							<div class="bioMajor"><p><b>Major:</b> Environmental Studies</p></div>
-	         </div>
+  <div class="row">
+    <div class="column">
+      <img src="rosterimages/Maddy.jpg" style="width:100%" onclick="openModal();currentSlide(25)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Olive.jpg" style="width:100%" onclick="openModal();currentSlide(26)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Silvie.png" style="width:100%" onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="rosterimages/Tori.jpg" style="width:100%" onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
+    </div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Christine.jpg" style="width:100%">
-            <div class="bioName"><p><b>Christine Sherwood</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Senior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Amherst, MA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Psychology and Education</p></div>
-          </div>
+</div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Sherry.jpg" style="width:100%">
-            <div class="bioName"><p><b>Sherry Yang #28</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Senior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Beijing, China</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Biochemistry (Pre-med)</p></div>
-          </div>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
-         <div class="mySlides">
-            <img src="rosterimages/Emma.jpeg" style="width:100%">
-            <div class="bioName"><p><b>Emma Bowe #11</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Belfast, ME</p></div>
-            <div class="bioMajor"><p><b>Major:</b> International Relations</p></div>
-          </div>
+    <div class="mySlides">
+      <img src="rosterimages/Mahmuda.jpg" style="width:100%">
+      <div class="bioName"><p><b>Mahmuda Alam #12</b></p></div>
+      <div class="bioYear"><p><b>Year:</b> Senior</p></div>
+      <div class="bioHometown"><p><b>Hometown:</b> Hudson, NY</p></div>
+      <div class="bioMajor"><p><b>Major:</b> Biochemistry (Pre-med)</p></div>
+    </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Clara.jpg" style="width:100%">
-            <div class="bioName"><p><b>Clara Honigberg #13</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Washington D.C.</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Chemistry (Pre-med)</p></div>
-          </div>
+    <div class="mySlides">
+     <img src="rosterimages/Bloomie.jpg" style="width:100%">
+     <div class="bioName"><p><b>Sarah Bloomgarden (Bloomie) #30</b></p></div>
+     <div class="bioYear"><p><b>Year:</b> Senior</p></div>
+     <div class="bioHometown"><p><b>Hometown:</b> Northampton, MA</p></div>
+     <div class="bioMajor"><p><b>Major:</b> Politics</p></div>
+   </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Madison.jpeg" style="width:100%">
-            <div class="bioName"><p><b>Madison Flueckiger #27</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Amherst, MA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+   <div class="mySlides">
+     <img src="rosterimages/Han.jpeg" style="width:100%">
+     <div class="bioName"><p><b>Hannah Finn-Erb #25</b></p></div>
+     <div class="bioYear"><p><b>Year:</b> Senior</p></div>
+     <div class="bioHometown"><p><b>Hometown:</b> Northampton, MA</p></div>
+     <div class="bioMajor"><p><b>Major:</b> Economics</p></div>
+   </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Sara.jpg" style="width:100%">
-            <div class="bioName"><p><b>Sara Frieze #18</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Norfolk, CT</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+   <div class="mySlides">
+     <img src="rosterimages/Ysabel.jpg" style="width:100%">
+     <div class="bioName"><p><b>Ysabel Lavitz #7 -- Captain</b></p></div>
+     <div class="bioYear"><p><b>Year:</b> Senior</p></div>
+     <div class="bioHometown"><p><b>Hometown:</b> Murray, KY</p></div>
+     <div class="bioMajor"><p><b>Major:</b> Environmental Studies</p></div>
+   </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/RobinJordan.jpg" style="width:100%">
-            <div class="bioName"><p><b>Robin Jordan</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Portland, ME</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+   <div class="mySlides">
+    <img src="rosterimages/Christine.jpg" style="width:100%">
+    <div class="bioName"><p><b>Christine Sherwood</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Senior</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Amherst, MA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> Psychology and Education</p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Robin.jpg" style="width:100%">
-            <div class="bioName"><p><b>Robin Joyce #32</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Arcata, CA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Data Science</p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Sherry.jpg" style="width:100%">
+    <div class="bioName"><p><b>Sherry Yang #28</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Senior</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Beijing, China</p></div>
+    <div class="bioMajor"><p><b>Major:</b> Biochemistry (Pre-med)</p></div>
+  </div>
 
-         <div class="mySlides">
-            <img src="rosterimages/Nina.jpg" style="width:100%">
-            <div class="bioName"><p><b>Nina Liu</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Beijing, China</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Computer Science</p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Emma.jpeg" style="width:100%">
+    <div class="bioName"><p><b>Emma Bowe #11 -- Captain</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Belfast, ME</p></div>
+    <div class="bioMajor"><p><b>Major:</b> International Relations</p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Marlee.jpg" style="width:100%">
-            <div class="bioName"><p><b>Marlee Raiffa #8</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Junior</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Amherst, MA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Clara.jpg" style="width:100%">
+    <div class="bioName"><p><b>Clara Honigberg #13</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Washington D.C.</p></div>
+    <div class="bioMajor"><p><b>Major:</b> Chemistry (Pre-med)</p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Wolf.jpg" style="width:100%">
-            <div class="bioName"><p><b>Wolf Chen #0</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Omie.jpeg" style="width:100%">
-            <div class="bioName"><p><b>Omie Coyne #6</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Tallahassee, FL</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Biology</p></div>
-          </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Sophia.jpeg" style="width:100%">
-            <div class="bioName"><p><b>Sophia Hoenig #9</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Washington D.C.</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Data Science</p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/RobinJordan.jpg" style="width:100%">
+    <div class="bioName"><p><b>Robin Jordan</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Portland, ME</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Anglea.jpeg" style="width:100%">
-            <div class="bioName"><p><b>Angela Kung #54</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Data Science</p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Robin.jpg" style="width:100%">
+    <div class="bioName"><p><b>Robin Joyce #32</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Arcata, CA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> Data Science</p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Ayla.jpg" style="width:100%">
-            <div class="bioName"><p><b>Ayla Osgood #71</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> State College, PA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Anli.jpeg" style="width:100%">
-            <div class="bioName"><p><b>Anli Raymond #15</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> New Haven, CT</p></div>
-            <div class="bioMajor"><p><b>Major:</b> Economics</p></div>
-          </div>
-          
-          <div class="mySlides">
-            <img src="rosterimages/SJ.jpg" style="width:100%">
-            <div class="bioName"><p><b>Emma St. John (SJ) #78</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Montclair, NJ</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Maggie.jpeg" style="width:100%">
-            <div class="bioName"><p><b>Maggie Sullivan #18</b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Westfield, MA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Marlee.jpg" style="width:100%">
+    <div class="bioName"><p><b>Marlee Raiffa #8</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Junior</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Amherst, MA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/HannahA.jpg" style="width:100%">
-            <div class="bioName"><p><b>Hannah Avidon </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Washington D.C.</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Wolf.jpg" style="width:100%">
+    <div class="bioName"><p><b>Wolf Chen #0</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Maddie.jpeg" style="width:100%">
-            <div class="bioName"><p><b>Maddie Burke (Buckets) </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Seattle, WA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
-          
-          <div class="mySlides">
-            <img src="rosterimages/Gigi.jpg" style="width:100%">
-            <div class="bioName"><p><b>Gigi Downey </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Boston, MA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Omie.jpeg" style="width:100%">
+    <div class="bioName"><p><b>Omie Coyne #6</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Tallahassee, FL</p></div>
+    <div class="bioMajor"><p><b>Major:</b> Biology</p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Anisha.jpg" style="width:100%">
-            <div class="bioName"><p><b>Anisha Johnson </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Carlsbad, CA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Gauri.jpg" style="width:100%">
-            <div class="bioName"><p><b>Gauri Kaushik </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Cupertino, CA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Ciera.jpg" style="width:100%">
-            <div class="bioName"><p><b>Ciera LeCiel </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Seattle, WA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
-          
-          <div class="mySlides">
-            <img src="rosterimages/Maddy.jpg" style="width:100%">
-            <div class="bioName"><p><b>Maddy McAlexander </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Havertown, PA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Anglea.jpeg" style="width:100%">
+    <div class="bioName"><p><b>Angela Kung #54</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
+    <div class="bioMajor"><p><b>Major:</b> Data Science</p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Olive.jpg" style="width:100%">
-            <div class="bioName"><p><b>Olive Rowell </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Brattleboro, VT</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Ayla.jpg" style="width:100%">
+    <div class="bioName"><p><b>Ayla Osgood #71</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> State College, PA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Silvie.png" style="width:100%">
-            <div class="bioName"><p><b>Silvie Schlein </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/Anli.jpeg" style="width:100%">
+    <div class="bioName"><p><b>Anli Raymond #15</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> New Haven, CT</p></div>
+    <div class="bioMajor"><p><b>Major:</b> Economics</p></div>
+  </div>
 
-          <div class="mySlides">
-            <img src="rosterimages/Tori.jpg" style="width:100%">
-            <div class="bioName"><p><b>Tori Tenney </b></p></div>
-            <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
-            <div class="bioHometown"><p><b>Hometown:</b> Orange, MA</p></div>
-            <div class="bioMajor"><p><b>Major:</b> </p></div>
-          </div>
+  <div class="mySlides">
+    <img src="rosterimages/SJ.jpg" style="width:100%">
+    <div class="bioName"><p><b>Emma St. John (SJ) #78</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Montclair, NJ</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Maggie.jpeg" style="width:100%">
+    <div class="bioName"><p><b>Maggie Sullivan #18</b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Sophomore</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Westfield, MA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/HannahA.jpg" style="width:100%">
+    <div class="bioName"><p><b>Hannah Avidon </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Washington D.C.</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Maddie.jpeg" style="width:100%">
+    <div class="bioName"><p><b>Maddie Burke (Buckets) </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Seattle, WA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Gigi.jpg" style="width:100%">
+    <div class="bioName"><p><b>Gigi Downey </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Boston, MA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Anisha.jpg" style="width:100%">
+    <div class="bioName"><p><b>Anisha Johnson </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Carlsbad, CA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Gauri.jpg" style="width:100%">
+    <div class="bioName"><p><b>Gauri Kaushik </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Cupertino, CA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Ciera.jpg" style="width:100%">
+    <div class="bioName"><p><b>Ciera LeCiel </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Seattle, WA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Maddy.jpg" style="width:100%">
+    <div class="bioName"><p><b>Maddy McAlexander </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Havertown, PA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Olive.jpg" style="width:100%">
+    <div class="bioName"><p><b>Olive Rowell </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Brattleboro, VT</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Silvie.png" style="width:100%">
+    <div class="bioName"><p><b>Silvie Schlein </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> New York, NY</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
+
+  <div class="mySlides">
+    <img src="rosterimages/Tori.jpg" style="width:100%">
+    <div class="bioName"><p><b>Tori Tenney </b></p></div>
+    <div class="bioYear"><p><b>Year:</b> Freshman</p></div>
+    <div class="bioHometown"><p><b>Hometown:</b> Orange, MA</p></div>
+    <div class="bioMajor"><p><b>Major:</b> </p></div>
+  </div>
 
 
 <!--           <div class="mySlides">
@@ -692,47 +644,47 @@
     </div>
 
     <div id = "footer">
-  <a href = "https://twitter.com/MHCdaisychain" target="_blank"><img src = "icons/twitter.png" class = "social" /></a>
-  <a href = "https://www.facebook.com/mhcdaisychain/" target="_blank"><img src = "icons/facebook.png" class = "social" /> </a>
-  <a href = "https://www.instagram.com/mhcdaisychain/" target="_blank"><img src = "icons/instagram.png" class = "social" /></a>
-</div>
+      <a href = "https://twitter.com/MHCdaisychain" target="_blank"><img src = "icons/twitter.png" class = "social" /></a>
+      <a href = "https://www.facebook.com/mhcdaisychain/" target="_blank"><img src = "icons/facebook.png" class = "social" /> </a>
+      <a href = "https://www.instagram.com/mhcdaisychain/" target="_blank"><img src = "icons/instagram.png" class = "social" /></a>
+    </div>
     <script>
-    function openModal() {
-      document.getElementById("myModal").style.display = "block";
-    }
-
-    function closeModal() {
-      document.getElementById("myModal").style.display = "none";
-    }
-
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
+      function openModal() {
+        document.getElementById("myModal").style.display = "block";
       }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-    </script>
-	</body>
-</html>
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+          }
+        </script>
+      </body>
+      </html>
