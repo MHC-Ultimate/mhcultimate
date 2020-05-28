@@ -70,6 +70,105 @@
     height: auto;
   }
 
+
+  p {
+        font-family: sans-serif;
+        line-height: 2em;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+p a{
+  border-bottom: 2px solid black;
+}
+    p a:hover{
+      border-bottom: 2px solid black;
+    }
+  h3 {
+        font-family: Georgia, sans-serif;
+        text-align: center;
+      }
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .5s;
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 </style>
 <head>
   <link rel="icon" href="icons/daisychainlogo.jpg">
@@ -92,43 +191,68 @@
  </ul>
 
 </div>
-<!-- Any stuff between the header and the footer -->
-<div class="container">
-  <div class="row">
-    <center>
-      <div id="pics">
+ <!-- Slideshow container -->
+<div class="slideshow-container">
 
-        <img class="img-responsive" src="slideshow/IMG_6246.jpeg" weight="800" height="500">
-        <img class="img-responsive" src="slideshow/singing.jpeg" weight="800" height="500">
-        <img class="img-responsive" src="slideshow/IMG_3510.jpeg" weight="800" height="500">
-        <img class="img-responsive" src="slideshow/nationals2018.jpeg" weight="800" height="500">
-        <img class="img-responsive" src="slideshow/regionals2019.jpeg" weight="800" height="500" >
-        <img class="img-responsive" src="slideshow/IMG_6202.jpeg" weight="800" height="500">
-
-      </div>
-    </center>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="slideshow/IMG_6246.jpeg" style="width:100%">
+    <div class="text">The Culture 2020</div>
   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="slideshow/singing.jpeg" style="width:100%">
+    <div class="text">Nationals 2019</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="slideshow/nationals2018.jpeg" style="width:100%">
+    <div class="text">Nationals 2018</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="slideshow/regionals2018.jpeg" style="width:100%">
+    <div class="text">Regionals 2018</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+<br>
+
+<h3>Updates</h3>
+
+<p>
+  <b><u>May 27, 2020:</u></b> Welcome to the ~new and improved website~! We hope to use this over the next year (and years to come) to provide updates about team information that cannot necessarily be shared over social media. <br><br>
+  Sadly our season came to an abrupt end due to the global pandemic. However, prior to the end of the season, we had an undefeated record which we planned to maintain all the way to nationals! <br><br>
+  This spring we also put forward our first ever nominee for the Donovan Award: Sarah "Bloomie" Bloomgarden, and she was selected as a finalist for the award! If you wish to look at her nomination biography or video, <a href="https://donovan.ultimatecentral.com/2020-nominees?nom_id=788364" target="_blank">find it here.</a><br><br>
+  We are hoping to return to campus and ultimate in the fall and are planning big things for our 15th season! Stay tuned! 
+  
+</p>
 
 
 <script>
-  var slideIndex = 0;
-  carousel();
 
-  function carousel() {
-    var i;
-      // Gets images from html
-      var x = document.getElementsByClassName("img-responsive");
-      // Goes through the images one by one
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      slideIndex++;
-      // Start again if at end
-      if (slideIndex > x.length) {slideIndex = 1}
-        x[slideIndex-1].style.display = "block";
-      setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
   </script>
   <div style="height:200;">
 
